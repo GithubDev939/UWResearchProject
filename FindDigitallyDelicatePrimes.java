@@ -45,7 +45,7 @@ class Main {
   }
   public static void main(String[] args) {
     ArrayList<Integer> digitallyDelicate = new ArrayList<Integer>();
-    int start = 535000000;
+    int start = 2;
     int end = 635000000;
     for (int x = start ; x < end+1 ; x++) {
       isDigitallyDelicate(x, digitallyDelicate);
